@@ -200,7 +200,7 @@ describe "#display_board in 'lib/display_board.rb" do
       # meaning you expect the entire output to at least include a matching row.
 
       # Uncomment the following lines of code by removing the # at line start.
-      # Then edit the following lines to represent a board entirely filled with X.
+      # Then edit the following lines to represent a board entirely filled with O.
       # Remember, every space and every character is important.
 
       # *** Edit the lines below ***
@@ -212,7 +212,7 @@ describe "#display_board in 'lib/display_board.rb" do
        expect(rows[4]).to eq(" O | O | O ")
 
       # *** Comment the line below by adding a # at the line start ***
-      expect(true).to be(true)
+      # expect(true).to be(true)
     end
   end
 end
